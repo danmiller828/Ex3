@@ -69,7 +69,7 @@ def get_random_points(num, z = 500):
     return point_3D
 
 def TransToFund(points,hom = 0):
-  ret = []  #this is a mistake
+  ret = []
   for mat in points:
     x = (float(mat[0]))
     y = (float(mat[1]))
